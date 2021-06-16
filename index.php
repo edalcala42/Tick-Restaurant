@@ -75,16 +75,6 @@
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<!--<li><a href="menu.php">Menu</a></li>
-						<li class="has-dropdown">
-							<a href="services.php">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Food Catering</a></li>
-								<li><a href="#">Wedding Celebration</a></li>
-								<li><a href="#">Birthdays Celebration</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.php">Contact</a></li>-->
 						<li class="btn-cta"><a href="http://localhost/Billing_Cafe_System/login.php"><span>Empleado</span></a></li>
 					</ul>	
 				</div>
@@ -109,42 +99,27 @@
 									<div class="tab-content">
 										<div class="tab-content-inner active" data-content="signup">
 											<h3 class="cursive-font">Mesa</h3>
-											<form action="#">
-												<div class="row form-group">
-													<!--<div class="col-md-12">
-														<label for="activities">Persons</label>
-														<select name="#" id="activities" class="form-control">
-															<option value="">Persons</option>
-															<option value="">1</option>
-															<option value="">2</option>
-															<option value="">3</option>
-															<option value="">4</option>
-															<option value="">5+</option>
-														</select>
-													</div>-->
-												</div>
+											<form action="loginC.php" method="post">
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="date-start">Código de Mesa</label>
-														<input type="text" REQUIRED class="form-control">
+														<input type="text" name="idM" REQUIRED class="form-control">
 													</div>
 												</div>
-												<div class="row form-group">
+												<!--<div class="row form-group">
 													<div class="col-md-12">
 														<label for="date-start">Contraseña</label>
 														<input type="password" REQUIRED class="form-control">
 													</div>
-												</div>
+												</div>-->
 
 												<div class="row form-group">
 													<div class="col-md-12">
-														<a href="http://localhost/Tick-Restaurant/menu.php" type="submit" class="btn btn-primary btn-block" role="button">Ingresar</a>
+														<button type="submit"  class="btn btn-primary btn-block" >Ingresar</button>
 													</div>
 												</div>
 											</form>	
 										</div>
-
-										
 									</div>
 								</div>
 							</div>

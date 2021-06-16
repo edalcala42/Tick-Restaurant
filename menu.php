@@ -80,8 +80,8 @@
 						<li class="active"><a href="menu.php">Menu</a></li>
 						<li class="has-dropdown">
 							<a href="ayuda.php">Ayuda</a></li>
-						<li><a href="http://localhost/Billing_Cafe_System/billing/index.php">Ver Pedido</a></li>
-						<li class="btn-cta"><a href="#"><span>Pagar</span></a></li>
+						<li><a href="http://localhost/Billing_Cafe_System/pedidoCliente.php">Hacer Pedido</a></li>
+						<li class="btn-cta"><a href="index.php"><span>Salir</span></a></li>
 					</ul>	
 				</div>
 			</div>
@@ -125,11 +125,11 @@
 							<p><span class="price cursive-font">$<?php echo number_format($row['price'],2) ?></span></p>
 						</div>
 					</a>
-					<div>
+					<!--<div>
 					    <form action="http://localhost/Billing_Cafe_System/billing/index.php" method="post" enctype="multipart/form-data">
                             <button class="btn btn-success" type="submit"> Añadir a orden</button><br/><br/><br/><br/>
                         </form>
-                    </div>
+                    </div>-->
 				</div>
 				<?php
                     }
