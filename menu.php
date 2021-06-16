@@ -80,7 +80,7 @@
 						<li class="active"><a href="menu.php">Menu</a></li>
 						<li class="has-dropdown">
 							<a href="ayuda.php">Ayuda</a></li>
-						<li><a href="http://localhost/Billing_Cafe_System/pedidoCliente.php">Hacer Pedido</a></li>
+						<li><a href="http://localhost/Billing_Cafe_System/billing/index.php">Hacer Pedido</a></li>
 						<li class="btn-cta"><a href="index.php"><span>Salir</span></a></li>
 					</ul>	
 				</div>
