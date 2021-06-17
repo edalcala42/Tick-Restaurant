@@ -70,7 +70,6 @@
 	<!-- <div class="page-inner"> -->
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
-			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
 					<div id="gtco-logo"><a href="menu.php">Tick-Restaurant<em>.</em></a></div>
@@ -80,12 +79,12 @@
 						<li class="active"><a href="menu.php">Menu</a></li>
 						<li class="has-dropdown">
 							<a href="ayuda.php">Ayuda</a></li>
-						<li><a href="http://localhost/Billing_Cafe_System/billing/index.php">Hacer Pedido</a></li>
+						<li><a href="http://localhost/Billing_Cafe_System/billing/pedidoCliente.php">Hacer Pedido</a></li>
+						<li class="btn-cta"><a href="http://localhost/Billing_Cafe_System/pagar.php"><span>Pagar</span></a></li>
 						<li class="btn-cta"><a href="index.php"><span>Salir</span></a></li>
 					</ul>	
 				</div>
 			</div>
-			
 		</div>
 	</nav>
 	
@@ -109,7 +108,7 @@
                     $query = "SELECT * FROM tabla_imagen";
                     $resultado = $conn->query($query);
 
-                    $product = $conn->query("SELECT * FROM products order by id asc");
+                    $product = $conn->query("SELECT * FROM producto order by id asc");
                     while($row=$product->fetch_assoc()){
                     $row2 = $resultado->fetch_assoc()
                 ?>
@@ -120,16 +119,11 @@
 							<img src="data:image/jpg;base64,<?php echo base64_encode($row2['imagen']); ?>" alt="Image" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
-							<h2><?php echo $row['name'] ?></h2>
-							<p><?php echo $row['description'] ?></p>
-							<p><span class="price cursive-font">$<?php echo number_format($row['price'],2) ?></span></p>
+							<h2><?php echo $row['nombre'] ?></h2>
+							<p><?php echo $row['descripcion'] ?></p>
+							<p><span class="price cursive-font">$<?php echo number_format($row['precio'],2) ?></span></p>
 						</div>
 					</a>
-					<!--<div>
-					    <form action="http://localhost/Billing_Cafe_System/billing/index.php" method="post" enctype="multipart/form-data">
-                            <button class="btn btn-success" type="submit"> Añadir a orden</button><br/><br/><br/><br/>
-                        </form>
-                    </div>-->
 				</div>
 				<?php
                     }

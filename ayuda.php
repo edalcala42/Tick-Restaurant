@@ -70,23 +70,21 @@
 	<!-- <div class="page-inner"> -->
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
-			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
 					<div id="gtco-logo"><a href="menu.php">Tick-Restaurant<em>.</em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li><a href="menu.php">Menu</a></li>
-						<li class="has-dropdown active">
-							<a href="ayuda.php">Ayuda</a>
-						</li>
-						<li><a href="http://localhost/Billing_Cafe_System/billing/index.php">Ver Pedido</a></li>
-						<li class="btn-cta"><a href="#"><span>Pagar</span></a></li>
+						<li class="active"><a href="menu.php">Menu</a></li>
+						<li class="has-dropdown">
+							<a href="ayuda.php">Ayuda</a></li>
+						<li><a href="http://localhost/Billing_Cafe_System/billing/pedidoCliente.php">Hacer Pedido</a></li>
+						<li class="btn-cta"><a href="http://localhost/Billing_Cafe_System/pagar.php"><span>Pagar</span></a></li>
+						<li class="btn-cta"><a href="index.php"><span>Salir</span></a></li>
 					</ul>	
 				</div>
 			</div>
-			
 		</div>
 	</nav>
 	

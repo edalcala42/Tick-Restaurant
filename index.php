@@ -106,27 +106,18 @@
 														<input type="text" name="idM" REQUIRED class="form-control">
 													</div>
 												</div>
-												<!--<div class="row form-group">
-													<div class="col-md-12">
-														<label for="date-start">Contraseña</label>
-														<input type="password" REQUIRED class="form-control">
-													</div>
-												</div>-->
-
 												<div class="row form-group">
 													<div class="col-md-12">
 														<button type="submit"  class="btn btn-primary btn-block" >Ingresar</button>
 													</div>
 												</div>
 											</form>	
-										</div>
+										</div>	
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-							
-					
+					</div>	
 				</div>
 			</div>
 		</div>

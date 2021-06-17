@@ -70,22 +70,17 @@
 	<!-- <div class="page-inner"> -->
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
-			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="jefecocina.php">Tick-Restaurant.     Jefe Cocina<em>.</em></a></div>
+					<div id="gtco-logo"><a href="menu.php">Tick-Restaurant<em>.</em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li class="active"><a href="jefecocina.php">Menu</a></li>
-						<li class="has-dropdown">
-							<a href="gestorplatillos.php">gestor</a></li>
-						<li><a href="pedidos.php">Ver Pedidos</a></li>
+						<li class="active"><a href="menu.php">Menu</a></li>
+						<li class="btn-cta"><a href="index.php"><span>Salir</span></a></li>
 					</ul>	
 				</div>
 			</div>
-			
-			
 		</div>
 	</nav>
 	
@@ -107,7 +102,7 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2 class="cursive-font">¡Pedido completado!</h2>
+					<h2 class="cursive-font">¡En un momento un mesero ira a cobrarle!</h2>
 					<img src="images/goodjob.PNG" alt="internet_kid">
 					<br>
 					</a>
